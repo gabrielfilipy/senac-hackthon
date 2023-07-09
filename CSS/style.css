@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: linear-gradient(#040228 0%, #0075c7 40%);
+	min-height: 10vh;
+	overflow-x: hidden;
+}
+
+.colo1 {
+	background: #0f0b57;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.colo2 {
+	background: #0b0843;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.colo3 {
+	background: #050327;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.colo4 {
+	background: #555dab;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.colo5 {
+	background: #21286c;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.colo6 {
+	background: #21254b;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.top {
+	margin-top: 30px;
+}
+
+.content {
+	width: 100%;
+	max-width: 1200px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.flex-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	margin: 0 auto;
+}
+
+.flex-item {
+	margin: 0 auto;
+    box-sizing: border-box;
+    height: 100%;
+    width: 33%;
+    display:flex;
+    padding: 2px;
+}
+
+.flex-item>div {
+    flex: 1 1 auto;
+}
+
+.beneficios-content {
+	width: 100%;
+	padding: 20px;
+}
+
+.mark {
+	width: 25px;
+	height: 25px;
+	background: #0CF1FF;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding: 30px 100px;
+	z-index: 100;
+	background: #040228;
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 100%;
+	max-width: 200px;
+	cursor: default;
+}
+
+.paralax {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	padding: 300px;
+}
+
+.paralax img {
+	position: absolute;
+	
+	width: 100%;
+	max-width: 1200px;
+	pointer-events: none;
+}
+
+.subscribre {
+	width: 100%;
+	text-align: center;
+}
+
+.falar-conosco {
+	width: 100%;
+	text-align: center;
+}
+
+.falar-conosco button {
+	width: 100%;
+	max-width: 300px;
+	border: 2px solid #0CF1FF;
+	background: none;
+	cursor: pointer;
+	padding: 10px;
+	color: #0CF1FF;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+.subscribre button {
+	width: 100%;
+	max-width: 500px;
+	background: #0CF1FF;
+	cursor: pointer;
+	padding: 25px;
+	border: none;
+	color: #040228;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+.subscribre button:hover {
+	width: 100%;
+	max-width: 500px;
+	background: #040228;
+	cursor: pointer;
+	padding: 25px;
+	border: none;
+	color: #0CF1FF;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+.description {
+	width: 100%;
+}
+
+.description h2 {
+	font-size: 3em;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.description h2:nth-child(2) { 
+	font-size: 2em;
+}
+
+.description p {
+	font-size: 1em;
+	color: white;
+	font-weight: 300;
+}
+
+.envolvidos {
+	width: 100%;
+	text-align: center;
+}
+
+.envolvidos img {
+	width: 100%;
+	max-width: 350px;
+}
+
+footer {
+	padding: 40px 0;
+	background: #040228;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.paralax {
+		padding: 0px;
+		margin-top: 200px;
+	}
+
+	.subscribre button {
+		margin-top: 200px;
+	}
+
+	.flex-item {
+    	width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.paralax {
+		margin-top: 35px;
+	}
+
+	.flex-item {
+    	width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.subscribre button {
+		margin-top: 55px !important;
+	}
+
+}
