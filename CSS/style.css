@@ -207,7 +207,7 @@ footer {
 	text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
 	.paralax {
 		padding: 0px;
 		margin-top: 200px;
@@ -222,7 +222,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
 	.paralax {
 		margin-top: 35px;
 	}
@@ -233,7 +233,7 @@ footer {
 
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
 
 	.subscribre button {
 		margin-top: 55px !important;
